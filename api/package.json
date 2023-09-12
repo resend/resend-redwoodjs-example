@@ -1,0 +1,13 @@
+{
+  "name": "api",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@react-email/button": "0.0.9",
+    "@react-email/html": "0.0.4",
+    "@redwoodjs/api": "5.4.3",
+    "@redwoodjs/graphql-server": "5.4.3",
+    "react-email": "1.9.4",
+    "resend": "^0.17.1"
+  }
+}
