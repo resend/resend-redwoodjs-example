@@ -3,7 +3,7 @@
 
 __metadata:
   version: 8
-  cacheKey: 10
+  cacheKey: 10c0
 
 "@aashutoshrathi/word-wrap@npm:^1.2.3":
   version: 1.2.6
@@ -5129,15 +5129,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-email/render@npm:0.0.7":
-  version: 0.0.7
-  resolution: "@react-email/render@npm:0.0.7"
+"@react-email/render@npm:0.0.12":
+  version: 0.0.12
+  resolution: "@react-email/render@npm:0.0.12"
   dependencies:
-    html-to-text: "npm:9.0.3"
-    pretty: "npm:2.0.0"
+    html-to-text: "npm:9.0.5"
+    js-beautify: "npm:^1.14.11"
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
-  checksum: 8/6a646ae06b49124e783a0d21cb923952e25ae420c38effa1e7bf8fa58fb229eb62e21903126fdc8750d786b5745f111225a40f11bb0c75e9ff1b61d963f00eb0
+  checksum: 10c0/36b11c2d4009fa8c7faae39cb8353e24256f1c41225e17d3164f730ddb7b3bc537a22aaeb7f634e71228148267b8f8cd2afb74fbcac318588dc6e0aa73ee92f3
   languageName: node
   linkType: hard
 
@@ -5709,16 +5709,6 @@ __metadata:
     prettier:
       optional: true
   checksum: 8/949e01001699a6e56a024fa167fb5785b08335f9df241269c7b23e67b3221eb824f935e6ff9fb24bf91f6a4a3e09a73256be421cf4014aaf918634ee3bb5b4b2
-  languageName: node
-  linkType: hard
-
-"@selderee/plugin-htmlparser2@npm:^0.10.0":
-  version: 0.10.0
-  resolution: "@selderee/plugin-htmlparser2@npm:0.10.0"
-  dependencies:
-    domhandler: "npm:^5.0.3"
-    selderee: "npm:^0.10.0"
-  checksum: 8/37b5e059f0091754348c288bf630b372d20bc999a84483a3dc6688ab84c743ddc286f95bc7d69253add48640e7145511b412678f2c954b83f63a87967dc3f569
   languageName: node
   linkType: hard
 
@@ -9017,7 +9007,7 @@ __metadata:
     "@redwoodjs/api": "npm:5.4.3"
     "@redwoodjs/graphql-server": "npm:5.4.3"
     react-email: "npm:1.10.1"
-    resend: "npm:^0.17.1"
+    resend: "npm:^3.0.0"
   languageName: unknown
   linkType: soft
 
@@ -9534,17 +9524,6 @@ __metadata:
   version: 4.8.4
   resolution: "axe-core@npm:4.8.4"
   checksum: 8/644da2fec17bcf6f834edaab1baa5a75a9a3ee370c323215c73da6d7e45fac11d01470d92d0a3d5f26695e15c1d9b781733dfbe1fe09d505076c58f09ed74e02
-  languageName: node
-  linkType: hard
-
-"axios@npm:1.4.0":
-  version: 1.4.0
-  resolution: "axios@npm:1.4.0"
-  dependencies:
-    follow-redirects: "npm:^1.15.0"
-    form-data: "npm:^4.0.0"
-    proxy-from-env: "npm:^1.1.0"
-  checksum: 8/7fb6a4313bae7f45e89d62c70a800913c303df653f19eafec88e56cea2e3821066b8409bc68be1930ecca80e861c52aa787659df0ffec6ad4d451c7816b9386b
   languageName: node
   linkType: hard
 
@@ -11446,17 +11425,6 @@ __metadata:
     conc: dist/bin/concurrently.js
     concurrently: dist/bin/concurrently.js
   checksum: 8/eafe6a4d9b7fda87f55ea285cfc6acd937a5286ceec8991ab48e6cc27c45fce6a5c6f45e18d7555defa15dc7d7e8941bc5a9d1ceaf182e31441d420e00333434
-  languageName: node
-  linkType: hard
-
-"condense-newlines@npm:^0.2.1":
-  version: 0.2.1
-  resolution: "condense-newlines@npm:0.2.1"
-  dependencies:
-    extend-shallow: "npm:^2.0.1"
-    is-whitespace: "npm:^0.3.0"
-    kind-of: "npm:^3.0.2"
-  checksum: 8/3c20ff6ee88b5d2e81c122f33b5ba5d6976cdf86d83527fadea308b3020ed70af7ed98c2e2d94d36f27fcd723a7a477941c19575e0d2c8db6afc4aac6926a54e
   languageName: node
   linkType: hard
 
@@ -14554,7 +14522,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"follow-redirects@npm:^1.0.0, follow-redirects@npm:^1.15.0":
+"follow-redirects@npm:^1.0.0":
   version: 1.15.5
   resolution: "follow-redirects@npm:1.15.5"
   peerDependenciesMeta:
@@ -15807,19 +15775,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"html-to-text@npm:9.0.3":
-  version: 9.0.3
-  resolution: "html-to-text@npm:9.0.3"
-  dependencies:
-    "@selderee/plugin-htmlparser2": "npm:^0.10.0"
-    deepmerge: "npm:^4.2.2"
-    dom-serializer: "npm:^2.0.0"
-    htmlparser2: "npm:^8.0.1"
-    selderee: "npm:^0.10.0"
-  checksum: 8/4509edd5c03a9aae163a3362a05b26aa0f9e7deaaa856a5f64c6885d9d9d7235190efb905c6794e5a696bdd2536d6e19432953670e3243b1399048727c232134
-  languageName: node
-  linkType: hard
-
 "html-to-text@npm:9.0.5":
   version: 9.0.5
   resolution: "html-to-text@npm:9.0.5"
@@ -16977,13 +16932,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"is-whitespace@npm:^0.3.0":
-  version: 0.3.0
-  resolution: "is-whitespace@npm:0.3.0"
-  checksum: 8/dac8fc9a9b797afeef703f625269601715552883790d1385d6bb27dd04ffdafd5fddca8f2d85ee96913850211595da2ba483dac1f166829c4078fb58ce815140
-  languageName: node
-  linkType: hard
-
 "is-window@npm:^1.0.2":
   version: 1.0.2
   resolution: "is-window@npm:1.0.2"
@@ -17773,7 +17721,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"js-beautify@npm:^1.14.11, js-beautify@npm:^1.6.12":
+"js-beautify@npm:^1.14.11":
   version: 1.15.0
   resolution: "js-beautify@npm:1.15.0"
   dependencies:
@@ -20507,16 +20455,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"parseley@npm:^0.11.0":
-  version: 0.11.0
-  resolution: "parseley@npm:0.11.0"
-  dependencies:
-    leac: "npm:^0.6.0"
-    peberminta: "npm:^0.8.0"
-  checksum: 8/cbd4762bf72c2456ddd722a8f3d757dfc6c178aa0819fc26be5549fcebf258fdee5f3acd210481054735e0ecb6fee47ba542b1f17560f941b9401fdd6ddf2e8c
-  languageName: node
-  linkType: hard
-
 "parseley@npm:^0.12.0":
   version: 0.12.1
   resolution: "parseley@npm:0.12.1"
@@ -20717,13 +20655,6 @@ __metadata:
     safe-buffer: "npm:^5.0.1"
     sha.js: "npm:^2.4.8"
   checksum: 8/2c950a100b1da72123449208e231afc188d980177d021d7121e96a2de7f2abbc96ead2b87d03d8fe5c318face097f203270d7e27908af9f471c165a4e8e69c92
-  languageName: node
-  linkType: hard
-
-"peberminta@npm:^0.8.0":
-  version: 0.8.0
-  resolution: "peberminta@npm:0.8.0"
-  checksum: 8/77d8c02b708c23c8b3893c42e33c29f8c485caa77b691ca5c1cc41fc8706e833d669e54a90c7cd7a18a01151b902ad13b0047d0290bc6cc51b5825c40692bdd5
   languageName: node
   linkType: hard
 
@@ -21505,17 +21436,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pretty@npm:2.0.0":
-  version: 2.0.0
-  resolution: "pretty@npm:2.0.0"
-  dependencies:
-    condense-newlines: "npm:^0.2.1"
-    extend-shallow: "npm:^2.0.1"
-    js-beautify: "npm:^1.6.12"
-  checksum: 8/9c41ae0559195af2fb2496d84c6f442843e045d269d4008a6dd336f8372d7481395ed5ab23e5711b6172682c27cb0542e1ab3ca11b38da48f1109c0b701d0ef9
-  languageName: node
-  linkType: hard
-
 "printable-characters@npm:^1.0.42":
   version: 1.0.42
   resolution: "printable-characters@npm:1.0.42"
@@ -21674,13 +21594,6 @@ __metadata:
     forwarded: "npm:0.2.0"
     ipaddr.js: "npm:1.9.1"
   checksum: 8/29c6990ce9364648255454842f06f8c46fcd124d3e6d7c5066df44662de63cdc0bad032e9bf5a3d653ff72141cc7b6019873d685708ac8210c30458ad99f2b74
-  languageName: node
-  linkType: hard
-
-"proxy-from-env@npm:^1.1.0":
-  version: 1.1.0
-  resolution: "proxy-from-env@npm:1.1.0"
-  checksum: 8/ed7fcc2ba0a33404958e34d95d18638249a68c430e30fcb6c478497d72739ba64ce9810a24f53a7d921d0c065e5b78e3822759800698167256b04659366ca4d4
   languageName: node
   linkType: hard
 
@@ -22625,14 +22538,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"resend@npm:^0.17.1":
-  version: 0.17.2
-  resolution: "resend@npm:0.17.2"
+"resend@npm:^3.0.0":
+  version: 3.2.0
+  resolution: "resend@npm:3.2.0"
   dependencies:
-    "@react-email/render": "npm:0.0.7"
-    axios: "npm:1.4.0"
-    type-fest: "npm:3.13.0"
-  checksum: 8/eb930fd960b205d9b5dcc6f8ecf5c616ab5840b3bad11747318dac7941b97f31e238935777516448db35e20fc854d9bfb8f2c44c64eaf2bdcecc7cf23c0613ec
+    "@react-email/render": "npm:0.0.12"
+  checksum: 10c0/731976bcfc1a3e161a16ceef0dad56cfa6913e6d5fa48e65556caa55b5fd40a6e7f62fccc03b090a1224cfd7973698b01b9c0166144c5b4a5ee108d973643795
   languageName: node
   linkType: hard
 
@@ -23117,15 +23028,6 @@ __metadata:
   version: 1.1.2
   resolution: "secure-random@npm:1.1.2"
   checksum: 8/44744464a2cb41dd812d482aff1a01b05842359480f2b0cbd6466d1da8cab8ebb2a84f070b0ddee34ab3867f1f775b2bc34ef3e860f27dc8177791595d6debc9
-  languageName: node
-  linkType: hard
-
-"selderee@npm:^0.10.0":
-  version: 0.10.0
-  resolution: "selderee@npm:0.10.0"
-  dependencies:
-    parseley: "npm:^0.11.0"
-  checksum: 8/8ecd535fe8a0359f729d4ba48c3a45121a6f5570fec3138774648084ebce63174717dfb028400490e5e7fda0c46a322a53ec656af69f4a17f34ece85685eb80f
   languageName: node
   linkType: hard
 
@@ -25117,13 +25019,6 @@ __metadata:
   version: 4.0.8
   resolution: "type-detect@npm:4.0.8"
   checksum: 8/62b5628bff67c0eb0b66afa371bd73e230399a8d2ad30d852716efcc4656a7516904570cd8631a49a3ce57c10225adf5d0cbdcb47f6b0255fe6557c453925a15
-  languageName: node
-  linkType: hard
-
-"type-fest@npm:3.13.0":
-  version: 3.13.0
-  resolution: "type-fest@npm:3.13.0"
-  checksum: 8/f7be142ae1ad0582eafd52d085350799c8cd918c15455896a06c82c147b61f8cea58892bedf1348943478e37740562219375b3b59fd855db99cd2b2766510f98
   languageName: node
   linkType: hard
 
