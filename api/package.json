@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "@react-email/button": "0.0.13",
+    "@react-email/button": "0.0.14",
     "@react-email/html": "0.0.7",
     "@redwoodjs/api": "6.6.4",
     "@redwoodjs/graphql-server": "6.6.4",
