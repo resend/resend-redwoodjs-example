@@ -5,8 +5,8 @@
   "dependencies": {
     "@react-email/button": "0.0.13",
     "@react-email/html": "0.0.7",
-    "@redwoodjs/api": "6.6.4",
-    "@redwoodjs/graphql-server": "6.6.4",
+    "@redwoodjs/api": "7.0.2",
+    "@redwoodjs/graphql-server": "7.0.2",
     "react-email": "2.0.0",
     "resend": "^3.0.0"
   }
