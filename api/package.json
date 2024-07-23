@@ -7,7 +7,7 @@
     "@react-email/html": "0.0.7",
     "@redwoodjs/api": "7.0.2",
     "@redwoodjs/graphql-server": "7.0.2",
-    "react-email": "2.1.0",
+    "react-email": "2.1.6",
     "resend": "^3.0.0"
   }
 }
