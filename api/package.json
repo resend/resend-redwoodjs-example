@@ -8,6 +8,6 @@
     "@redwoodjs/api": "7.0.2",
     "@redwoodjs/graphql-server": "7.0.2",
     "react-email": "2.1.0",
-    "resend": "^3.0.0"
+    "resend": "^4.0.0"
   }
 }
