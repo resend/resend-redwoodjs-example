@@ -5465,6 +5465,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@react-email/html@npm:0.0.11":
+  version: 0.0.11
+  resolution: "@react-email/html@npm:0.0.11"
+  peerDependencies:
+    react: ^18.0 || ^19.0 || ^19.0.0-rc
+  checksum: 10c0/04be96e135677cd507636877c2f9bf1a507d40f6d4442ff3fac58bc70d478e7f23dd03d94ecc1605d3e368d50129281e71f4b7afb242f1b32d285bfc37236a09
+  languageName: node
+  linkType: hard
+
 "@react-email/html@npm:0.0.7":
   version: 0.0.7
   resolution: "@react-email/html@npm:0.0.7"
@@ -8351,7 +8360,7 @@ __metadata:
   resolution: "api@workspace:api"
   dependencies:
     "@react-email/button": "npm:0.0.14"
-    "@react-email/html": "npm:0.0.7"
+    "@react-email/html": "npm:0.0.11"
     "@redwoodjs/api": "npm:7.7.5"
     "@redwoodjs/graphql-server": "npm:7.7.5"
     react-email: "npm:2.1.0"
