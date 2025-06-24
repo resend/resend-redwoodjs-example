@@ -5542,17 +5542,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-email/render@npm:0.0.17":
-  version: 0.0.17
-  resolution: "@react-email/render@npm:0.0.17"
+"@react-email/render@npm:1.1.2":
+  version: 1.1.2
+  resolution: "@react-email/render@npm:1.1.2"
   dependencies:
-    html-to-text: "npm:9.0.5"
-    js-beautify: "npm:^1.14.11"
-    react-promise-suspense: "npm:0.3.4"
+    html-to-text: "npm:^9.0.5"
+    prettier: "npm:^3.5.3"
+    react-promise-suspense: "npm:^0.3.4"
   peerDependencies:
-    react: ^18.2.0
-    react-dom: ^18.2.0
-  checksum: 10c0/34a1c5a55586d7cd723638d8cd5328fddf30015e5065a2e9d5204772e0532e84d63af1b2b1b8ec02cef52a8f57d34871200c0075a9ed7b2861362d8138d3db5e
+    react: ^18.0 || ^19.0 || ^19.0.0-rc
+    react-dom: ^18.0 || ^19.0 || ^19.0.0-rc
+  checksum: 10c0/def0039a24b797d962d7dcb3a3401c093aa0115545284e00863de4066a826a3e4977b8f2c65b1f3bf77352bee5595e0dedf166ea52467dcb7080e14785e1c3ac
   languageName: node
   linkType: hard
 
@@ -14777,7 +14777,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"html-to-text@npm:9.0.5":
+"html-to-text@npm:9.0.5, html-to-text@npm:^9.0.5":
   version: 9.0.5
   resolution: "html-to-text@npm:9.0.5"
   dependencies:
@@ -20051,6 +20051,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"prettier@npm:^3.5.3":
+  version: 3.6.0
+  resolution: "prettier@npm:3.6.0"
+  bin:
+    prettier: bin/prettier.cjs
+  checksum: 10c0/636897c8084b71ef1f740a46199df0d8f6ed896aa497212cc8cc229d3026b9dca82fa92f61e55924c4708cea11e39a88478e2d93c4818741c55b7408a9ac6d91
+  languageName: node
+  linkType: hard
+
 "pretty-bytes@npm:5.6.0":
   version: 5.6.0
   resolution: "pretty-bytes@npm:5.6.0"
@@ -20614,7 +20623,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-promise-suspense@npm:0.3.4":
+"react-promise-suspense@npm:^0.3.4":
   version: 0.3.4
   resolution: "react-promise-suspense@npm:0.3.4"
   dependencies:
@@ -21126,11 +21135,11 @@ __metadata:
   linkType: hard
 
 "resend@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "resend@npm:4.0.0"
+  version: 4.6.0
+  resolution: "resend@npm:4.6.0"
   dependencies:
-    "@react-email/render": "npm:0.0.17"
-  checksum: 10c0/45934a4a044ead8afe17e9d9982f468f66979b4078b15d512b440354467bc50946a856e1eb8e7fe5af9113cf32e0495995ab00a039692d7e2778022041f50105
+    "@react-email/render": "npm:1.1.2"
+  checksum: 10c0/ffd82d406fff0ebf7b66078df8bb5348a8aa01f0dadb8b3700184a2c4104e193cb8ed63902e0034d0492d3bbb318a67504d6cb826ef60fe67c753ffa9f800799
   languageName: node
   linkType: hard
 
