@@ -1,3 +1,11 @@
+> [!IMPORTANT]
+> This repository has been consolidated into the new [resend-examples](https://github.com/resend/resend-examples) monorepo, which contains updated examples for all languages and frameworks.
+>
+> **[View the RedwoodJS examples here](https://github.com/resend/resend-examples/tree/main/redwoodjs-resend-examples)**
+
+---
+
+
 # Resend with RedwoodJS
 
 This example shows how to use Resend with [RedwoodJS](https://redwoodjs.com).
